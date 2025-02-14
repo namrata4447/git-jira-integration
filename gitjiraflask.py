@@ -18,7 +18,7 @@ def createJira():
 
          # Jira API details
          url = "https://namratamansur.atlassian.net/rest/api/3/issue"
-         API_TOKEN = "ATATT3xFfGF0GMrqkeOxJnaiaEEQVR6qlJ2GxeloRXRWZa5RoL0rrJLJWyMDw3S2uRRHPZK9FZs-qUY0fMnG5j04pKnysr8u9sY0ucQLopUk0fh07RDN0_HzdQLVco1Rrt9btF_MvOs0zXO7BU259DvN5rWP6FOZVH-N04he1TJ5INQRmoeFhI0=6F305B82"
+         API_TOKEN = "ATATT3xFfGF0mur-cy1pf06t3LYexvt9YhJw1rHcqPAPIDUoMpKJylvigDsMb_yYT72kwXNnWGlhMK5hYOfU7-Wl6owJjyt02e1aKGYmxQoMnRzz_s9YIRYN7WmQ7ZEIbwWc0behLmv9kN-T1Z_kUA7NgdtocRIwou1o4cDEqvx94wk1KOTLxPs=D24D69CD"
          auth = HTTPBasicAuth("namratamansur@gmail.com", API_TOKEN)
 
          headers = {
